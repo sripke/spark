@@ -1,0 +1,15 @@
+[0m[[0minfo[0m] [0mPackaging /run/user/1000/gvfs/smb-share:server=sandras-macbook-pro.local,share=steffen/coding/Spark/target/scala-2.10/movescount_2.10-0.0.1.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	de/ripke/movescount/scala/MovesCount.class[0m
+[0m[[0mdebug[0m] [0m	  /run/user/1000/gvfs/smb-share:server=sandras-macbook-pro.local,share=steffen/coding/Spark/target/scala-2.10/classes/de/ripke/movescount/scala/MovesCount.class[0m
+[0m[[0mdebug[0m] [0m	de/ripke/movescount[0m
+[0m[[0mdebug[0m] [0m	  /run/user/1000/gvfs/smb-share:server=sandras-macbook-pro.local,share=steffen/coding/Spark/target/scala-2.10/classes/de/ripke/movescount[0m
+[0m[[0mdebug[0m] [0m	de/ripke/movescount/scala/MovesCount$.class[0m
+[0m[[0mdebug[0m] [0m	  /run/user/1000/gvfs/smb-share:server=sandras-macbook-pro.local,share=steffen/coding/Spark/target/scala-2.10/classes/de/ripke/movescount/scala/MovesCount$.class[0m
+[0m[[0mdebug[0m] [0m	de[0m
+[0m[[0mdebug[0m] [0m	  /run/user/1000/gvfs/smb-share:server=sandras-macbook-pro.local,share=steffen/coding/Spark/target/scala-2.10/classes/de[0m
+[0m[[0mdebug[0m] [0m	de/ripke[0m
+[0m[[0mdebug[0m] [0m	  /run/user/1000/gvfs/smb-share:server=sandras-macbook-pro.local,share=steffen/coding/Spark/target/scala-2.10/classes/de/ripke[0m
+[0m[[0mdebug[0m] [0m	de/ripke/movescount/scala[0m
+[0m[[0mdebug[0m] [0m	  /run/user/1000/gvfs/smb-share:server=sandras-macbook-pro.local,share=steffen/coding/Spark/target/scala-2.10/classes/de/ripke/movescount/scala[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

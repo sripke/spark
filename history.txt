@@ -1,0 +1,500 @@
+    6  apt-get install scala sbt
+    7  sudo apt-get install scala sbt
+    8  sbt clean package
+    9  /usr/local/spark/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/learning-spark-mini-example-0.0.1.jar ./README.md ./wordcounts
+   10  cd learning-spark-master/mini-complete-example/
+   11  ls
+   12  /usr/local/spark/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/learning-spark-mini-example-0.0.1.jar ./README.md ./wordcounts
+   13  /usr/local/spark/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/learning-spark-mini-example-0.0.1.jar ./README.md ./wordcounts
+   14  ls
+   15  cd src/main/scala/
+   16  /usr/local/spark/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/learning-spark-mini-example-0.0.1.jar ./README.md ./wordcounts
+   17  ls
+   18  cd ..
+   19  cd ..
+   20  cd ..
+   21  /usr/local/spark/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/learning-spark-mini-example-0.0.1.jar ./README.md ./wordcounts
+   22  sbt clean package
+   23  /usr/local/spark/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/learning-spark-mini-example-0.0.1.jar ./README.md ./wordcounts
+   24  /usr/local/spark/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/learning-spark-mini-example-0.0.1.jar ./README.md ./wordcounts
+   25  ls
+   26  cd target/
+   27  ls
+   28  cd scala-2.10/classes/com/oreilly/learningsparkexamples/mini/scala/
+   29  ls
+   30  cd scala-2.10/classes/com/oreilly/learningsparkexamples/mini/scala/
+   31  ls
+   32  /usr/local/spark/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/learning-spark-mini-example-0.0.1.jar ./README.md ./wordcounts
+   33  cd ..
+   34  cd ..
+   35  cd ..
+   36  cd ..
+   37  cd ..
+   38  ls
+   39  /usr/local/spark/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/learning-spark-mini-example-0.0.1.jar ./README.md ./wordcounts
+   40  cd ..
+   41  cd ..
+   42  cd ..
+   43  /usr/local/spark/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/learning-spark-mini-example-0.0.1.jar ./README.md ./wordcounts
+   44  /usr/local/spark/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/learning-spark-mini-example-0.0.1.jar ./README.md ./wordcounts
+   45  cd target/
+   46  ls
+   47  cd scala-2.10/
+   48  ls
+   49  /usr/local/spark/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/classes ./README.md ./wordcounts
+   50  cd ..
+   51  cd ...
+   52  cd ..
+   53  /usr/local/spark/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/classes ./README.md ./wordcounts
+   54  rm -rf wordcounts/
+   55  /usr/local/spark/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/classes ./README.md ./wordcounts
+   56  ls
+   57  ls wordcounts/
+   58  ls -l wordcounts/
+   59  /usr/local/hadoop/bin/hadoop namenode -format
+   60  /usr/local/hadoop/bin/hdfs namenode -format
+   61  /usr/local/hadoop/sbin/start-dfs.sh
+   62  sudo /usr/local/hadoop/sbin/start-dfs.sh
+   63  su -hduser
+   64  su - hduser
+   65  /usr/local/spark/sbin/start-all.sh 
+   66  ifconfig
+   67  su - hduser
+   68  /usr/local/spark/sbin/start-all.sh 
+   69  hadoop
+   70  /usr/local/hadoop/bin/hadoop
+   71  hdfs
+   72  /usr/local/hadoop/bin/hdfs
+   73  su - hduser
+   74  su - hduser
+   75  putty
+   76  ls
+   77  cd learning-spark-master/
+   78  ls
+   79  cd mini-complete-example/
+   80  ls
+   81  /usr/local/spark/sbin/start-all.sh 
+   82  vi src/main/scala/com/oreilly/learningsparkexamples/mini/scala/WordCount.scala 
+   83  /usr/local/spark/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/classes hdfs://Steffens-MintVB/user/hduser/dir1/README.md hdfs://Steffens-MintVB/user/hduser/dir1/wordcounts
+   84  source ~/.bashrc
+   85  hadoop
+   86  hadoop fs -ls /user/hduser
+   87  hadoop fs -ls hdfs://localhost:8020/user/hduser
+   88  /usr/local/spark/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/classes hdfs://Steffens-MintVB:9000/user/hduser/dir1/README.md hdfs://Steffens-MintVB:9000/user/hduser/dir1/wordcounts
+   89  /usr/local/spark/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/classes hdfs://localhost:9000/user/hduser/dir1/README.md hdfs://localhost:9000/user/hduser/dir1/wordcounts
+   90  /usr/local/spark/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/classes hdfs://localhost:9000/user/hduser/dir1/README.md hdfs://localhost:9000/user/hduser/dir1/wordcounts
+   91  hadoop fs -p mkdir /usr/steffen
+   92  hadoop fs mkdir /usr/steffen
+   93  hadoop fs -mkdir /usr/steffen
+   94  hadoop fs -mkdir -p /usr/steffen
+   95  /usr/local/spark/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/classes hdfs://localhost:9000/user/steffen/README.md hdfs://localhost:9000/user/steffen/wordcounts
+   96  hadoop fs -cp
+   97  hadoop fs -mv
+   98  hadoop fs -mv /user/hduser/dir1/README.md /user/steffen
+   99  /usr/local/spark/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/classes hdfs://localhost:9000/user/steffen/README.md hdfs://localhost:9000/user/steffen/wordcounts
+  100  sudo apt-get install eclipse
+  101  su
+  102  ifconfig
+  103  ping 192.168.178.37
+  104  ifconfig
+  105  cd
+  106  ls -a
+  107  less .bashrc 
+  108  rcp .bashrc steffen@Steffens-MiniMintVB:/home/steffen/
+  109  ifconfig
+  110  ssh-keygen -t dsa
+  111  ping Steffens-MiniMintVB
+  112  ssh Steffens-MiniMintVB
+  113  ssh Steffens-MiniMintVB
+  114  rcp .ssh/id_dsa.pub steffen@Steffens-MiniMintVB
+  115  rcp .ssh/id_dsa.pub steffen@Steffens-MiniMintVB
+  116  rcp .ssh/id_dsa.pub steffen@Steffens-MiniMintVB/home/steffen/id_dsa.pub
+  117  rcp .ssh/id_dsa.pub steffen@Steffens-MiniMintVB/home/steffen/
+  118  rcp .ssh/id_dsa.pub steffen@Steffens-MiniMintVB:/home/steffen/
+  119  ssh Steffens-MiniMintVB
+  120  cd /usr/local/spark/
+  121  ls
+  122  vi conf/slaves.template 
+  123  rn
+  124  mv conf/slaves.template conf/slaves.template 
+  125  mv conf/slaves.template conf/slaves
+  126  sbin/start-all.sh 
+  127  sbin/start-all.sh 
+  128  less /etc/host
+  129  less /etc/hosts
+  130  ps -a
+  131  ps -alF
+  132  kill -9 2955
+  133  kill -9 2696
+  134  sbin/start-all.sh 
+  135  sbin/start-all.sh 
+  136  kill -9 3138
+  137  sbin/start-all.sh 
+  138  sbin/start-all.sh 
+  139  sbin/start-all.sh 
+  140  kill -9 3450
+  141  sbin/start-all.sh 
+  142  ps -a
+  143  kill 3859
+  144  sbin/start-master.sh 
+  145  less /usr/local/spark-1.3.0-bin-hadoop2.4/sbin/../logs/spark-steffen-org.apache.spark.deploy.master.Master-1-Steffens-MintVB.out
+  146  sbin/stop-all.sh 
+  147  sbin/stop-all.sh 
+  148  sbin/start-worker.sh 
+  149  sbin/start-slave.sh
+  150  sbin/start-all.sh 
+  151  sbin/stop-all.sh 
+  152  sbin/start-all.sh 
+  153  ls -l logs
+  154  less logs/spark-steffen-org.apache.spark.deploy.master.Master-1-Steffens-MintVB.out
+  155  less conf/slaves 
+  156  sbin/start-slaves.sh 
+  157  kill 5434
+  158  sbin/start-slaves.sh 
+  159  sbin/stop-slaves.sh 
+  160  cd
+  161  cd .ssh
+  162  ls
+  163  cd ..
+  164  cat .ssh/id_dsa.pub >> .ssh/authorized_keys
+  165  ls -l .ssh
+  166  chmod 644 .ssh/authorized_keys 
+  167  ls -l .ssh
+  168  sbin/start-slaves.sh 
+  169  /usr/local/spark/sbin/start-slaves.sh 
+  170  /usr/local/spark/sbin/stop-slaves.sh 
+  171  /usr/local/spark/sbin/stop-master.sh 
+  172  /usr/local/spark/sbin/stop-slaves.sh 
+  173  /usr/local/spark/sbin/start-all.sh 
+  174  ifconfig
+  175  sudo vi /etc/hosts
+  176  /usr/local/spark/sbin/start-all.sh 
+  177  /usr/local/spark/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/classes hdfs://localhost:9000/user/steffen/README.md hdfs://localhost:9000/user/steffen/wordcounts
+  178  ls
+  179  cd learning-spark-master/
+  180  ls
+  181  cd mini-complete-example/
+  182  ls
+  183  /usr/local/spark/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/classes hdfs://localhost:9000/user/steffen/README.md hdfs://localhost:9000/user/steffen/wordcounts
+  184  man hadoop fs
+  185  /usr/local/spark/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/classes hdfs://localhost:9000/user/steffen/README.md hdfs://localhost:9000/user/steffen/wordcounts
+  186  /usr/local/spark/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/classes hdfs://localhost:9000/user/steffen/README.md hdfs://localhost:9000/user/steffen/wordcounts
+  187  /usr/local/spark/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/classes hdfs://localhost:9000/user/steffen/README.md hdfs://localhost:9000/user/steffen/wordcounts
+  188  /usr/local/spark/bin/spark-submit --master spark://Steffens-MintVB:7077 --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/classes hdfs://localhost:9000/user/steffen/README.md hdfs://localhost:9000/user/steffen/wordcounts
+  189  spark-shell --master spark://Steffens-MintVB:7077
+  190  /usr/local/spark/bin/spark-submit --master spark://Steffens-MintVB:7077 --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/classes hdfs://localhost:9000/user/steffen/README.md hdfs://localhost:9000/user/steffen/wordcounts
+  191  /usr/local/spark/bin/spark-submit --master spark://Steffens-MintVB:7077 --addJars --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/classes hdfs://localhost:9000/user/steffen/README.md hdfs://localhost:9000/user/steffen/wordcounts
+  192  /usr/local/spark/bin/spark-submit --master spark://Steffens-MintVB:7077 --class com.oreilly.learningsparkexamples.mini.scala.WordCount --jars ./target/scala-2.10/classes hdfs://localhost:9000/user/steffen/README.md hdfs://localhost:9000/user/steffen/wordcounts
+  193  /usr/local/spark/bin/spark-submit --master spark://Steffens-MintVB:7077 --class com.oreilly.learningsparkexamples.mini.scala.WordCount hdfs://localhost:9000/user/steffen/README.md hdfs://localhost:9000/user/steffen/wordcounts
+  194  /usr/local/spark/bin/spark-submit --master spark://Steffens-MintVB:7077 --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/classes hdfs://localhost:9000/user/steffen/README.md hdfs://localhost:9000/user/steffen/wordcounts
+  195  /usr/local/spark/bin/spark-submit --master spark://Steffens-MintVB:7077 --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/classes/co hdfs://localhost:9000/user/steffen/README.md hdfs://localhost:9000/user/steffen/wordcounts
+  196  /usr/local/spark/bin/spark-submit --master spark://Steffens-MintVB:7077 --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/classes/steffen_2.10-0.1-SNAPSHOT.jar hdfs://localhost:9000/user/steffen/README.md hdfs://localhost:9000/user/steffen/wordcounts
+  197  /usr/local/spark/bin/spark-submit --master spark://Steffens-MintVB:7077 --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/classes/steffen_2.10-0.1-SNAPSHOT.jar hdfs://localhost:9000/user/steffen/README.md hdfs://localhost:9000/user/steffen/wordcounts
+  198  ls
+  199  ls target
+  200  ls target/scala-2.10/
+  201  /usr/local/spark/bin/spark-submit --master spark://Steffens-MintVB:7077 --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/learning-spark-mini-example_2.10-0.0.1.jar hdfs://localhost:9000/user/steffen/README.md hdfs://localhost:9000/user/steffen/wordcounts
+  202  /usr/local/spark/bin/spark-submit --master spark://Steffens-MintVB:7077 --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/learning-spark-mini-example_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/README.md hdfs://Steffens-MintVB:9000/user/steffen/wordcounts
+  203  /usr/local/spark/bin/spark-submit --master spark://Steffens-MintVB:7077 --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/learning-spark-mini-example_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/README.md hdfs://Steffens-MintVB:9000/user/steffen/wordcounts
+  204  /usr/local/spark/bin/spark-submit --master spark://Steffens-MintVB:7077 --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/learning-spark-mini-example_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/README.md hdfs://Steffens-MintVB:9000/user/steffen/wordcounts
+  205  /usr/local/spark/bin/spark-submit --master spark://Steffens-MintVB:7077 --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/learning-spark-mini-example_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/README.md hdfs://Steffens-MintVB:9000/user/steffen/wordcounts
+  206  /usr/local/spark/bin/spark-submit --master spark://Steffens-MintVB:7077 --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/learning-spark-mini-example_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/README.md hdfs://Steffens-MintVB:9000/user/steffen/wordcounts
+  207  ifconfig
+  208  ping Steffens-MiniMintVB
+  209  /usr/local/spark/bin/spark-submit --master spark://Steffens-MintVB:7077 --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/learning-spark-mini-example_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/README.md hdfs://Steffens-MintVB:9000/user/steffen/wordcounts
+  210  /usr/local/spark/bin/spark-submit --master spark://Steffens-MintVB:7077 --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/learning-spark-mini-example_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/README.md hdfs://Steffens-MintVB:9000/user/steffen/wordcounts
+  211  /usr/local/spark/bin/spark-submit --master spark://Steffens-MintVB:7077 --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/learning-spark-mini-example_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/README.md hdfs://Steffens-MintVB:9000/user/steffen/wordcounts
+  212  su - hduser
+  213  sudo adduser --ingroup hadoop
+  214  sudo adduser --ingroup hadoop steffen
+  215  sudo usermod -aG hadoop steffen
+  216  su - hduser
+  217  cat .ssh/id_rsa.Sandras-MBP.pub >> .ssh/authorized_keys 
+  218  sudo vi /usr/local/hadoop/etc/hadoop/masters
+  219  sudo vi /usr/local/hadoop/etc/hadoop/slaves
+  220  vi /usr/local/hadoop/etc/hadoop/core-site.xml 
+  221  vi /usr/local/hadoop/etc/hadoop/core-site.xml 
+  222  sudo vi /usr/local/hadoop/etc/hadoop/mapred-site.xml
+  223  sudo vi /usr/local/hadoop/etc/hadoop/hdfs-site.xml 
+  224  sudo vi /usr/local/hadoop/etc/hadoop/mapred-site.xml
+  225  su - hduser
+  226  /usr/local/hadoop/bin/hadoop fs -mkdir /user/steffen
+  227  /usr/local/hadoop/sbin/start-dfs.sh
+  228  /usr/local/hadoop/sbin/stop-dfs.sh
+  229  su - hduser
+  230  /usr/local/spark/bin/spark-submit --master spark://Steffens-MintVB:7077 --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/learning-spark-mini-example_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/README.md hdfs://Steffens-MintVB:9000/user/steffen/wordcounts
+  231  cd learning-spark-master/mini-complete-example/
+  232  /usr/local/spark/bin/spark-submit --master spark://Steffens-MintVB:7077 --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/learning-spark-mini-example_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/README.md hdfs://Steffens-MintVB:9000/user/steffen/wordcounts
+  233  /usr/local/spark/sbin/start-all.sh 
+  234  /usr/local/spark/bin/spark-submit --master spark://Steffens-MintVB:7077 --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/learning-spark-mini-example_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/README.md hdfs://Steffens-MintVB:9000/user/steffen/wordcounts
+  235  cd Downloads/
+  236  /usr/local/spark/bin/spark-submit --master spark://Steffens-MintVB:7077 --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/learning-spark-mini-example_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/README.md hdfs://Steffens-MintVB:9000/user/steffen/wordcounts
+  237  ls
+  238  hdfs dfs -put README.md /user/steffen
+  239  hdfs dfs -chown steffen /user/steffen
+  240  su - hduser
+  241  hdfs dfs -put README.md /user/steffen
+  242  /usr/local/spark/bin/spark-submit --master spark://Steffens-MintVB:7077 --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/learning-spark-mini-example_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/README.md hdfs://Steffens-MintVB:9000/user/steffen/wordcounts
+  243  hdfs dfs -rm /user/steffen/wordcounts
+  244  hdfs dfs -rm -rf /user/steffen/wordcounts
+  245  hdfs dfs -rm -f -r /user/steffen/wordcounts
+  246  /usr/local/spark/bin/spark-submit --master spark://Steffens-MintVB:7077 --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/learning-spark-mini-example_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/README.md hdfs://Steffens-MintVB:9000/user/steffen/wordcounts
+  247  /usr/local/spark/sbin/stop-all.sh 
+  248  /usr/local/spark/sbin/start-all.sh 
+  249  /usr/local/spark/sbin/stop-master.sh 
+  250  /usr/local/spark/sbin/start-all.sh 
+  251  hdfs dfs -rm -f -r /user/steffen/wordcounts
+  252  /usr/local/spark/bin/spark-submit --master spark://Steffens-MintVB:7077 --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/learning-spark-mini-example_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/README.md hdfs://Steffens-MintVB:9000/user/steffen/wordcounts
+  253  less /usr/local/hadoop/etc/hadoop/yarn-site.xml
+  254  vi /usr/local/hadoop/etc/hadoop/yarn-site.xml
+  255  sudo vi /usr/local/hadoop/etc/hadoop/yarn-site.xml
+  256  su - hduser
+  257  /usr/local/spark/sbin/stop-all.sh 
+  258  su - hduser
+  259  su - hduser
+  260  hdfs dfs -rm -f -r /user/steffen/wordcounts
+  261  /usr/local/spark/bin/spark-submit --master yarn-cluster  --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/learning-spark-mini-example_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/README.md hdfs://Steffens-MintVB:9000/user/steffen/wordcounts
+  262  vi .bashrc
+  263  source .bashrc
+  264  ls $HADOOP_CONF_DIR
+  265  export
+  266  ls $HADOOP_CONF
+  267  ls /usr/local/hadoop/etc/hadoop/
+  268  ls /usr/local/hadoop/etc/hadoop/
+  269  vi .bashrc
+  270  vi .bashrc
+  271  ls $HADOOP_CONF_DIR
+  272  vi .bashrc
+  273  /usr/local/spark/bin/spark-submit --master yarn-cluster  --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/learning-spark-mini-example_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/README.md hdfs://Steffens-MintVB:9000/user/steffen/wordcounts
+  274  source .bashrc
+  275  /usr/local/spark/bin/spark-submit --master yarn-cluster  --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/learning-spark-mini-example_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/README.md hdfs://Steffens-MintVB:9000/user/steffen/wordcounts
+  276  ls
+  277  ls target/
+  278  ls target/scala-2.10/
+  279  /usr/local/spark/bin/spark-submit --master yarn-cluster  --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/steffen_2.10-0.1-SNAPSHOT.jar hdfs://Steffens-MintVB:9000/user/steffen/README.md hdfs://Steffens-MintVB:9000/user/steffen/wordcounts
+  280  /usr/local/spark/bin/spark-submit --master yarn-cluster  --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/learning-spark-mini-example_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/README.md hdfs://Steffens-MintVB:9000/user/steffen/wordcounts
+  281  ls
+  282  cd learning-spark-master/
+  283  ls
+  284  /usr/local/spark/bin/spark-submit --master yarn-cluster  --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/learning-spark-mini-example_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/README.md hdfs://Steffens-MintVB:9000/user/steffen/wordcounts
+  285  sbt/sbt assembly
+  286  ls
+  287  ls target/
+  288  cd mini-complete-example/
+  289  ls
+  290  ls target/
+  291  /usr/local/spark/bin/spark-submit --master yarn-cluster  --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/learning-spark-mini-example_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/README.md hdfs://Steffens-MintVB:9000/user/steffen/wordcounts
+  292  /usr/local/hadoop/bin/hadoop fs -put /user/steffen
+  293  su - hduser
+  294  /usr/local/hadoop/bin/hadoop fs -put /user/steffen
+  295  curl -XGET "https://uiservices.movescount.com/moves/private?appkey=HpF9f1qV5qrDJ1hY1QK1diThyPsX10Mh4JvCw9xVQSglJNLdcwr3540zFyLzIC3e&userkey=604a51e9-9622-4905-af04-db99283a1d02&email=steffen%40ripke-home.de&startdate=2014-01-01" > moves.txt
+  296  ls
+  297  pwd
+  298  /usr/local/hadoop/bin/hadoop fs -put /home/steffen/moves.txt
+  299  hdfs dfs -rm -f -r /user/steffen/wordcounts
+  300  /usr/local/spark/bin/spark-submit --master yarn-cluster  --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/learning-spark-mini-example_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/moves.txt hdfs://Steffens-MintVB:9000/user/steffen/wordcounts
+  301  ls
+  302  cd learning-spark-master/
+  303  ls
+  304  /usr/local/spark/bin/spark-submit --master yarn-cluster  --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/learning-spark-mini-example_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/moves.txt hdfs://Steffens-MintVB:9000/user/steffen/wordcounts
+  305  ls
+  306  cd mini-complete-example/
+  307  ls
+  308  /usr/local/spark/bin/spark-submit --master yarn-cluster  --class com.oreilly.learningsparkexamples.mini.scala.WordCount ./target/scala-2.10/learning-spark-mini-example_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/moves.txt hdfs://Steffens-MintVB:9000/user/steffen/wordcounts
+  309  ls
+  310  cdsrc
+  311  cd src
+  312  ls
+  313  cd main/
+  314  ls
+  315  cd scala/com/oreilly/learningsparkexamples/mini/scala/
+  316  ls
+  317  vi WordCount.scala 
+  318  /usr/local/spark/bin/spark-submit --master yarn-cluster  --class de.ripke.movescount.scala.MovesCount ./movescount_1.00-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/moves.txt hdfs://Steffens-MintVB:9000/user/steffen/movescount
+  319  sbt clean package
+  320  cd
+  321  cd Dokumente/
+  322  ls
+  323  cd -
+  324  cd -
+  325  cd ../learning-spark-master/mini-complete-example/
+  326  ls
+  327  cp build.s /home/steffen/Dokumente/
+  328  cp build.sbt /home/steffen/Dokumente/
+  329  cd -
+  330  ls
+  331  sbt clean package
+  332  ls
+  333  /usr/local/spark/bin/spark-submit --master yarn-cluster  --class de.ripke.movescount.scala.MovesCount ./target/scala-2.10/movescount_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/moves.txt hdfs://Steffens-MintVB:9000/user/steffen/movescount
+  334  scala
+  335  su - hduser
+  336  ping Steffens-MintVB
+  337  hdfs dfs -put Dokumente/23AE0A510F001E00-2015-04-19T11_30_54-0.sml /user/steffen
+  338  apt-get install openambit
+  339  sudo apt-get install openambit
+  340  ls
+  341  rm moves.txt 
+  342  ls -l
+  343  less steffen@Steffens-MiniMintVB 
+  344  pwd
+  345  ls -a
+  346  ls .ssh
+  347  rm steffen@Steffens-MiniMintVB 
+  348  ls
+  349  cd Dokumente/
+  350  ls
+  351  rm 23AE0A510F001E00-2015-04-19T11_30_54-0.sml 
+  352  cp ../learning-spark-master/mini-complete-example/src/main/scala/com/oreilly/learningsparkexamples/mini/scala/WordCount.scala .
+  353  ls
+  354  mv WordCount.scala MovesCount.scala
+  355  scala
+  356  spark-shell 
+  357  spark-shell 
+  358  spark-shell 
+  359  spark-shell 
+  360  spark-shell 
+  361  hdfs dfs -rm -f -r /user/steffen/movescount
+  362  /usr/local/spark/sbin/start-all.sh 
+  363  /usr/local/spark/sbin/start-all.sh 
+  364  pwd
+  365  ls
+  366  cd Dokumente/
+  367  ls
+  368  ls -l
+  369  sbt clean package
+  370  sbt clean package
+  371  sbt clean package
+  372  sbt clean package
+  373  sbt clean package
+  374  sbt clean package
+  375  sbt clean package
+  376  sbt clean package
+  377  ls
+  378  vi build.sbt 
+  379  sbt clean package
+  380  sbt clean package
+  381  sbt clean package
+  382  sbt clean package
+  383  sbt clean package
+  384  sbt clean package
+  385  mount -a
+  386  sudo mount -a
+  387  sudo mount -a
+  388  mkdir /mnt/Steffen
+  389  sudo mkdir /mnt/Steffen
+  390  cd /
+  391  ls
+  392  cd /mnt/
+  393  ls
+  394  cd /media
+  395  ls
+  396  cd steffen/
+  397  ls
+  398  cd ..
+  399  cd..
+  400  cd ..
+  401  mount -t smb 
+  402  man mount
+  403  mount -t smbfs //Sandras-MacBook-Pro/steffen /mnt/steffen
+  404  sudo mount -t smbfs //Sandras-MacBook-Pro/steffen /mnt/steffen
+  405  sudo mount -t smbfs //Sandras-MacBook-Pro/steffen /mnt/
+  406  sudo mount -t smb //Sandras-MacBook-Pro/steffen /mnt/
+  407  sudo smbmount //Sandras-MacBook-Pro/steffen /mnt/
+  408  sudo mount -t cifs //Sandras-MacBook-Pro/steffen /mnt/
+  409  sudo mount -t cifs //Sandras-MacBook-Pro/steffen /mnt/ -o Steffen
+  410  sudo mount -t cifs -o Steffen //Sandras-MacBook-Pro/steffen /mnt/
+  411  mount -t cifs -o Steffen //Sandras-MacBook-Pro/steffen /mnt/
+  412  man mount
+  413  mount -t cifs -o username=Steffen //Sandras-MacBook-Pro/steffen /mnt/
+  414  sudo mount -t cifs -o username=Steffen //Sandras-MacBook-Pro/steffen /mnt/
+  415  sudo mount -t cifs -o username=Steffen //Sandras-MacBook-Pro/steffen /media
+  416  man mount.cifs
+  417  sudo mount.cifs -o username=Steffen //Sandras-MacBook-Pro/steffen /media
+  418  apt-get install cifs
+  419  sudo apt-get install cifs
+  420  sudo apt-get install cifs-utils
+  421  nano /etc/fstab
+  422  sudo vi /etc/fstab
+  423  sudo vi /etc/fstab
+  424  mount -a
+  425  sudo mount -a
+  426  sudo vi /etc/fstab
+  427  sudo vi /etc/fstab
+  428  sudo mount -a
+  429  sudo vi /etc/fstab
+  430  sudo vi /etc/fstab
+  431  sudo mount -a
+  432  sudo mount -a
+  433  ping Sandras-MacBook-Pro
+  434  '/run/user/1000/gvfs/afp-volume:host=Sandras-MacBook-Pro.local,user=Steffen,volume=Steffen/Artikel' 
+  435  sudo mount -a
+  436  sudo mount -a
+  437  sudo mount -a
+  438  sudo mount -a
+  439  '/run/user/1000/gvfs/smb-share:server=sandras-mbp,share=steffen/coding' 
+  440  cd /run/user/1000/gvfs/smb-share\:server\=sandras-mbp\,share\=steffen/
+  441  ls
+  442  cd /run/user/1000/gvfs/smb-share\:server\=sandras-mbp\,share\=steffen/coding/
+  443  ls
+  444  sudo mount -t cifs -o username=Steffen //Sandras-MacBook-Pro/Steffen /mnt
+  445  ping Sandras-MacBook-Pro
+  446  sudo mount -t cifs -o username=Steffen //192.168.178.26/Steffen /mnt
+  447  sudo mount -t cifs -o username=Steffen sec=lanman //Sandras-MacBook-Pro/Steffen /mnt
+  448  sudo mount -t cifs -o username=Steffen,sec=lanman //Sandras-MacBook-Pro/Steffen /mnt
+  449  sudo mount -t cifs -o username=Steffen,sec=ntlm //Sandras-MacBook-Pro/Steffen /mnt
+  450  sudo mount -t cifs -o username=Steffen,sec=ntlm //Sandras-MacBook-Pro/Steffen /mnt/Steffen/
+  451  sudo dmesg
+  452  sudo apt-get install cifs-utils
+  453  sudo mount -t cifs -o username=Steffen,sec=ntlm,workgroup=WORKGROUP //Sandras-MacBook-Pro/Steffen /mnt/Steffen/
+  454  sudo mount -t cifs -o username=Steffen,sec=ntlm,dom=WORKGROUP //Sandras-MacBook-Pro/Steffen /mnt/Steffen/
+  455  sudo mount -t -o username=Steffen //Sandras-MacBook-Pro/Steffen /mnt/Steffen/
+  456  sudo mount -t cifs -o username=Steffen //Sandras-MacBook-Pro/Steffen /mnt/Steffen/
+  457  sudo mount -t cifs -o username=Steffen\ Ripke //Sandras-MacBook-Pro/Steffen /mnt/Steffen/
+  458  sudo mount -t cifs -o username=Steffen\ Ripke //Sandras-MacBook-Pro/Steffen /mnt/Steffen/
+  459  sudo mount -t cifs -o username=Steffen\ Ripke //Sandras-MacBook-Pro/Steffen /mnt/Steffen/
+  460  sudo mount -t cifs -o username=Steffen\ Ripke //192.168.178/Steffen /mnt/Steffen/
+  461  sudo mount -t cifs -o username=Steffen\ Ripke //192.168.178.26/Steffen /mnt/Steffen/
+  462  sudo mount -t cifs -o username=Steffen //192.168.178.26/Steffen /mnt/Steffen/
+  463  smbclient -L //192.168.178.26/Steffen -U Steffen
+  464  smbclient -L //192.168.178.26/Steffen
+  465  sudo smbclient -L //192.168.178.26/Steffen
+  466  smbclient -L //192.168.178.26/Steffen
+  467  smbclient -L //sandras-mbp/steffen
+  468  sudo mount -t cifs -o username=Steffen //sandras-mbp/steffen /mnt/Steffen/
+  469  sudo mount.cifs -o username=Steffen //sandras-mbp/steffen /mnt/Steffen/
+  470  sudo apt-get install nfs-common
+  471  sudo mount -t nfs -o username=Steffen //sandras-mbp/steffen /mnt/Steffen/
+  472  sudo mount -t nfs -o username=Steffen //sandras-mbp:/steffen /mnt/Steffen/
+  473  sudo mount -t nfs -o username=Steffen //192.168.178.26:/steffen /mnt/Steffen/
+  474  sudo mount -t nfs -o username=Steffen //192.168.178.26:/Steffen /mnt/Steffen/
+  475  sudo mount -t cifs -o username=Steffen,domain=WORKGROUP //sandras-mbp/steffen /mnt/Steffen/
+  476  sudo mount -t cifs -o username=Steffen,domain=WORKGROUP //192.168.178.26/steffen /mnt/Steffen/
+  477  sudo mount -t afp -o username=Steffen //192.168.178.26/steffen /mnt/Steffen/
+  478  sudo mount -t cifs -o username=Steffen,domain=WORKGROUP //192.168.178.26/steffen/coding /mnt/Steffen/
+  479  cd /run/user/1000/gvfs/smb-share\:server\=sandras-mbp\,share\=steffen/coding/
+  480  ls
+  481  cd Spark/
+  482  ls
+  483  sbt clean package
+  484  sbt clean package
+  485  sbt clean package
+  486  sbt 
+  487  sbt package
+  488  sbt package
+  489  /usr/local/spark/bin/spark-submit --master yarn-cluster  --class de.ripke.movescount.scala.MovesCount ./target/scala-2.10/movescount_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/moves.txt hdfs://Steffens-MintVB:9000/user/steffen/movescount
+  490  /usr/local/spark/sbin/start-all.sh 
+  491  /usr/local/spark/bin/spark-submit --master yarn-cluster  --class de.ripke.movescount.scala.MovesCount ./target/scala-2.10/movescount_2.10-0.0.1.jar hdfs://Steffens-MintVB:9000/user/steffen/moves.txt hdfs://Steffens-MintVB:9000/user/steffen/movescount
+  492  /usr/local/spark/sbin/start
+  493  /usr/local/spark/sbin/start-all.sh 
+  494  ls /usr/local/hadoop/sbin/start-all.sh
+  495  /usr/local/hadoop/sbin/start-all.sh
+  496  sudo /usr/local/hadoop/sbin/start-all.sh
+  497  /usr/local/hadoop/sbin/start-dfs.sh &&  /usr/local/hadoop/sbin/start-yarn.sh
+  498  /usr/local/hadoop/sbin/stop-dfs.sh
+  499  /usr/local/hadoop/sbin/stop-yarn.sh
+  500  history
+  501  history > history.txt
+  502  pwd
+  503  cd /run/user/1000/gvfs/smb-share:server=sandras-macbook-pro.local,share=steffen/coding
+  504  ls
+  505  history > history.txt
